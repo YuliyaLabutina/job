@@ -255,6 +255,17 @@ transform: rotate(180deg)
 footer {
  display: flex;
  justify-content: center;
+height: 88px;
+}
+footer p{
+    height: 32px;
+    width: 266px;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 /* визуал */
 
