@@ -1,12 +1,14 @@
 body{
  max-width: 1920px;
  margin: 0;
+
 }
 header{
-  max-width: 1216px;
+   max-width: 1216px; 
   margin: auto;
   width: 100%;
-  height: 960px;
+  min-height: 960px;
+
  }
 .promo{
      background: url("img/header.png") no-repeat center top;
@@ -43,8 +45,8 @@ height: 100%;
 }
 .title{
 margin: auto;
-width: 748px;
-height: 178px;
+max-width: 748px;
+max-height: 178px;
 margin-top: 233px;
 text-align: center;
 }
@@ -136,7 +138,7 @@ text-align: left;
 
 }
 .third_block{
-    width: 1216px;
+   max-width: 1216px;
     margin: 0 auto ;
     margin-top: 80px;
     display: grid;
